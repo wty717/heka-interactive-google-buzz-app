@@ -1,0 +1,280 @@
+[04-Jan-2011 20:56:25] PHP Fatal error:  Cannot redeclare class OAuthException in /home/amaxwell/public_html/buzz/google-api-php-client/src/external/OAuth.php on line 7
+[08-Jan-2011 10:40:14] PHP Fatal error:  Cannot redeclare class OAuthException in /home/amaxwell/public_html/buzz/google-api-php-client/src/external/OAuth.php on line 7
+[10-Jan-2011 00:57:39] PHP Fatal error:  Cannot redeclare class OAuthException in /home/amaxwell/public_html/buzz/google-api-php-client/src/external/OAuth.php on line 7
+[10-Jan-2011 01:12:01] PHP Fatal error:  Cannot redeclare class OAuthException in /home/amaxwell/public_html/buzz/google-api-php-client/src/external/OAuth.php on line 7
+[12-Jan-2011 09:18:43] PHP Fatal error:  Cannot redeclare class OAuthException in /home/amaxwell/public_html/buzz/google-api-php-client/src/external/OAuth.php on line 7
+[19-Jan-2011 17:17:59] PHP Parse error:  syntax error, unexpected $end in /home/amaxwell/public_html/buzz/google-api-php-client/src/external/URITemplateParser.php on line 72
+[19-Jan-2011 17:20:31] PHP Fatal error:  Uncaught exception 'apiServiceException' with message 'Error calling https://www.googleapis.com/buzz/v1/activities/@me/@consumption?c=50&hl=50&max-liked=50&alt=json: (401) Unknown authorization header' in /home/amaxwell/public_html/buzz/google-api-php-client/src/io/apiREST.php:84
+Stack trace:
+#0 /home/amaxwell/public_html/buzz/google-api-php-client/src/service/apiServiceResource.php(101): apiREST::execute(Object(apiServiceRequest))
+#1 /home/amaxwell/public_html/buzz/google-api-php-client/src/contrib/apiBuzzService.php(139): apiServiceResource->__call('list', Array)
+#2 /home/amaxwell/public_html/buzz/google-api-php-client/examples/index.php(81): apiBuzzService->listActivities('@consumption', '@me', 50, 50, NULL, 50)
+#3 {main}
+  thrown in /home/amaxwell/public_html/buzz/google-api-php-client/src/io/apiREST.php on line 84
+[19-Jan-2011 17:20:40] PHP Warning:  json_encode() expects exactly 1 parameter, 2 given in /home/amaxwell/public_html/buzz/google-api-php-client/src/auth/apiOAuth.php on line 78
+[19-Jan-2011 17:20:41] PHP Fatal error:  Uncaught exception 'apiServiceException' with message 'Error calling https://www.googleapis.com/buzz/v1/activities/@me/@consumption?c=50&hl=50&max-liked=50&alt=json: (503) A system error has occurred' in /home/amaxwell/public_html/buzz/google-api-php-client/src/io/apiREST.php:84
+Stack trace:
+#0 /home/amaxwell/public_html/buzz/google-api-php-client/src/service/apiServiceResource.php(101): apiREST::execute(Object(apiServiceRequest))
+#1 /home/amaxwell/public_html/buzz/google-api-php-client/src/contrib/apiBuzzService.php(139): apiServiceResource->__call('list', Array)
+#2 /home/amaxwell/public_html/buzz/google-api-php-client/examples/index.php(81): apiBuzzService->listActivities('@consumption', '@me', 50, 50, NULL, 50)
+#3 {main}
+  thrown in /home/amaxwell/public_html/buzz/google-api-php-client/src/io/apiREST.php on line 84
+[19-Jan-2011 17:21:07] PHP Fatal error:  Uncaught exception 'apiServiceException' with message 'Error calling https://www.googleapis.com/buzz/v1/activities/@me/@consumption?c=50&hl=50&max-liked=50&alt=json: (401) Unknown authorization header' in /home/amaxwell/public_html/buzz/google-api-php-client/src/io/apiREST.php:84
+Stack trace:
+#0 /home/amaxwell/public_html/buzz/google-api-php-client/src/service/apiServiceResource.php(101): apiREST::execute(Object(apiServiceRequest))
+#1 /home/amaxwell/public_html/buzz/google-api-php-client/src/contrib/apiBuzzService.php(139): apiServiceResource->__call('list', Array)
+#2 /home/amaxwell/public_html/buzz/google-api-php-client/examples/index.php(81): apiBuzzService->listActivities('@consumption', '@me', 50, 50, NULL, 50)
+#3 {main}
+  thrown in /home/amaxwell/public_html/buzz/google-api-php-client/src/io/apiREST.php on line 84
+[19-Jan-2011 17:21:14] PHP Warning:  json_encode() expects exactly 1 parameter, 2 given in /home/amaxwell/public_html/buzz/google-api-php-client/src/auth/apiOAuth.php on line 78
+[19-Jan-2011 17:21:14] PHP Fatal error:  Uncaught exception 'apiServiceException' with message 'Error calling https://www.googleapis.com/buzz/v1/activities/@me/@consumption?c=50&hl=50&max-liked=50&alt=json: (503) A system error has occurred' in /home/amaxwell/public_html/buzz/google-api-php-client/src/io/apiREST.php:84
+Stack trace:
+#0 /home/amaxwell/public_html/buzz/google-api-php-client/src/service/apiServiceResource.php(101): apiREST::execute(Object(apiServiceRequest))
+#1 /home/amaxwell/public_html/buzz/google-api-php-client/src/contrib/apiBuzzService.php(139): apiServiceResource->__call('list', Array)
+#2 /home/amaxwell/public_html/buzz/google-api-php-client/examples/index.php(81): apiBuzzService->listActivities('@consumption', '@me', 50, 50, NULL, 50)
+#3 {main}
+  thrown in /home/amaxwell/public_html/buzz/google-api-php-client/src/io/apiREST.php on line 84
+[19-Jan-2011 17:25:23] PHP Fatal error:  Uncaught exception 'apiCacheException' with message 'Cache file could not be deleted' in /home/amaxwell/public_html/buzz/google-api-php-client/src/cache/apiFileCache.php:132
+Stack trace:
+#0 /home/amaxwell/public_html/buzz/google-api-php-client/src/auth/apiOAuth.php(76): apiFileCache->delete('OAuth:anonymous...')
+#1 /home/amaxwell/public_html/buzz/google-api-php-client/src/apiClient.php(130): apiOAuth->authenticate(Object(apiFileCache), Object(apiCurlIO), Array)
+#2 /home/amaxwell/public_html/buzz/google-api-php-client/examples/index.php(14): apiClient->authenticate()
+#3 {main}
+  thrown in /home/amaxwell/public_html/buzz/google-api-php-client/src/cache/apiFileCache.php on line 132
+[19-Jan-2011 17:25:29] PHP Fatal error:  Uncaught exception 'apiServiceException' with message 'Error calling https://www.googleapis.com/buzz/v1/activities/@me/@consumption?c=50&hl=50&max-liked=50&alt=json: (401) Unknown authorization header' in /home/amaxwell/public_html/buzz/google-api-php-client/src/io/apiREST.php:84
+Stack trace:
+#0 /home/amaxwell/public_html/buzz/google-api-php-client/src/service/apiServiceResource.php(101): apiREST::execute(Object(apiServiceRequest))
+#1 /home/amaxwell/public_html/buzz/google-api-php-client/src/contrib/apiBuzzService.php(139): apiServiceResource->__call('list', Array)
+#2 /home/amaxwell/public_html/buzz/google-api-php-client/examples/index.php(81): apiBuzzService->listActivities('@consumption', '@me', 50, 50, NULL, 50)
+#3 {main}
+  thrown in /home/amaxwell/public_html/buzz/google-api-php-client/src/io/apiREST.php on line 84
+[19-Jan-2011 17:25:33] PHP Warning:  json_encode() expects exactly 1 parameter, 2 given in /home/amaxwell/public_html/buzz/google-api-php-client/src/auth/apiOAuth.php on line 78
+[19-Jan-2011 17:25:33] PHP Fatal error:  Uncaught exception 'apiServiceException' with message 'Error calling https://www.googleapis.com/buzz/v1/activities/@me/@consumption?c=50&hl=50&max-liked=50&alt=json: (503) A system error has occurred' in /home/amaxwell/public_html/buzz/google-api-php-client/src/io/apiREST.php:84
+Stack trace:
+#0 /home/amaxwell/public_html/buzz/google-api-php-client/src/service/apiServiceResource.php(101): apiREST::execute(Object(apiServiceRequest))
+#1 /home/amaxwell/public_html/buzz/google-api-php-client/src/contrib/apiBuzzService.php(139): apiServiceResource->__call('list', Array)
+#2 /home/amaxwell/public_html/buzz/google-api-php-client/examples/index.php(81): apiBuzzService->listActivities('@consumption', '@me', 50, 50, NULL, 50)
+#3 {main}
+  thrown in /home/amaxwell/public_html/buzz/google-api-php-client/src/io/apiREST.php on line 84
+[19-Jan-2011 17:25:38] PHP Fatal error:  Uncaught exception 'apiCacheException' with message 'Cache file could not be deleted' in /home/amaxwell/public_html/buzz/google-api-php-client/src/cache/apiFileCache.php:132
+Stack trace:
+#0 /home/amaxwell/public_html/buzz/google-api-php-client/src/auth/apiOAuth.php(76): apiFileCache->delete('OAuth:anonymous...')
+#1 /home/amaxwell/public_html/buzz/google-api-php-client/src/apiClient.php(130): apiOAuth->authenticate(Object(apiFileCache), Object(apiCurlIO), Array)
+#2 /home/amaxwell/public_html/buzz/google-api-php-client/examples/index.php(14): apiClient->authenticate()
+#3 {main}
+  thrown in /home/amaxwell/public_html/buzz/google-api-php-client/src/cache/apiFileCache.php on line 132
+[19-Jan-2011 17:25:39] PHP Fatal error:  Uncaught exception 'apiCacheException' with message 'Cache file could not be deleted' in /home/amaxwell/public_html/buzz/google-api-php-client/src/cache/apiFileCache.php:132
+Stack trace:
+#0 /home/amaxwell/public_html/buzz/google-api-php-client/src/auth/apiOAuth.php(76): apiFileCache->delete('OAuth:anonymous...')
+#1 /home/amaxwell/public_html/buzz/google-api-php-client/src/apiClient.php(130): apiOAuth->authenticate(Object(apiFileCache), Object(apiCurlIO), Array)
+#2 /home/amaxwell/public_html/buzz/google-api-php-client/examples/index.php(14): apiClient->authenticate()
+#3 {main}
+  thrown in /home/amaxwell/public_html/buzz/google-api-php-client/src/cache/apiFileCache.php on line 132
+[19-Jan-2011 17:25:41] PHP Fatal error:  Uncaught exception 'apiCacheException' with message 'Cache file could not be deleted' in /home/amaxwell/public_html/buzz/google-api-php-client/src/cache/apiFileCache.php:132
+Stack trace:
+#0 /home/amaxwell/public_html/buzz/google-api-php-client/src/auth/apiOAuth.php(76): apiFileCache->delete('OAuth:anonymous...')
+#1 /home/amaxwell/public_html/buzz/google-api-php-client/src/apiClient.php(130): apiOAuth->authenticate(Object(apiFileCache), Object(apiCurlIO), Array)
+#2 /home/amaxwell/public_html/buzz/google-api-php-client/examples/index.php(14): apiClient->authenticate()
+#3 {main}
+  thrown in /home/amaxwell/public_html/buzz/google-api-php-client/src/cache/apiFileCache.php on line 132
+[19-Jan-2011 17:26:03] PHP Fatal error:  Uncaught exception 'apiServiceException' with message 'Error calling https://www.googleapis.com/buzz/v1/activities/@me/@consumption?c=50&hl=50&max-liked=50&alt=json: (401) Unknown authorization header' in /home/amaxwell/public_html/buzz/google-api-php-client/src/io/apiREST.php:84
+Stack trace:
+#0 /home/amaxwell/public_html/buzz/google-api-php-client/src/service/apiServiceResource.php(101): apiREST::execute(Object(apiServiceRequest))
+#1 /home/amaxwell/public_html/buzz/google-api-php-client/src/contrib/apiBuzzService.php(139): apiServiceResource->__call('list', Array)
+#2 /home/amaxwell/public_html/buzz/google-api-php-client/examples/index.php(81): apiBuzzService->listActivities('@consumption', '@me', 50, 50, NULL, 50)
+#3 {main}
+  thrown in /home/amaxwell/public_html/buzz/google-api-php-client/src/io/apiREST.php on line 84
+[19-Jan-2011 17:27:15] PHP Fatal error:  Uncaught exception 'apiCacheException' with message 'Cache file could not be deleted' in /home/amaxwell/public_html/buzz/google-api-php-client/src/cache/apiFileCache.php:132
+Stack trace:
+#0 /home/amaxwell/public_html/buzz/google-api-php-client/src/auth/apiOAuth.php(76): apiFileCache->delete('OAuth:anonymous...')
+#1 /home/amaxwell/public_html/buzz/google-api-php-client/src/apiClient.php(130): apiOAuth->authenticate(Object(apiFileCache), Object(apiCurlIO), Array)
+#2 /home/amaxwell/public_html/buzz/google-api-php-client/examples/index.php(14): apiClient->authenticate()
+#3 {main}
+  thrown in /home/amaxwell/public_html/buzz/google-api-php-client/src/cache/apiFileCache.php on line 132
+[19-Jan-2011 17:27:27] PHP Fatal error:  Uncaught exception 'apiServiceException' with message 'Error calling https://www.googleapis.com/buzz/v1/activities/@me/@consumption?c=50&hl=50&max-liked=50&alt=json: (401) Unknown authorization header' in /home/amaxwell/public_html/buzz/google-api-php-client/src/io/apiREST.php:84
+Stack trace:
+#0 /home/amaxwell/public_html/buzz/google-api-php-client/src/service/apiServiceResource.php(101): apiREST::execute(Object(apiServiceRequest))
+#1 /home/amaxwell/public_html/buzz/google-api-php-client/src/contrib/apiBuzzService.php(139): apiServiceResource->__call('list', Array)
+#2 /home/amaxwell/public_html/buzz/google-api-php-client/examples/index.php(81): apiBuzzService->listActivities('@consumption', '@me', 50, 50, NULL, 50)
+#3 {main}
+  thrown in /home/amaxwell/public_html/buzz/google-api-php-client/src/io/apiREST.php on line 84
+[19-Jan-2011 17:27:46] PHP Warning:  json_encode() expects exactly 1 parameter, 2 given in /home/amaxwell/public_html/buzz/google-api-php-client/src/auth/apiOAuth.php on line 78
+[19-Jan-2011 17:27:46] PHP Fatal error:  Uncaught exception 'apiServiceException' with message 'Error calling https://www.googleapis.com/buzz/v1/activities/@me/@consumption?c=50&hl=50&max-liked=50&alt=json: (503) A system error has occurred' in /home/amaxwell/public_html/buzz/google-api-php-client/src/io/apiREST.php:84
+Stack trace:
+#0 /home/amaxwell/public_html/buzz/google-api-php-client/src/service/apiServiceResource.php(101): apiREST::execute(Object(apiServiceRequest))
+#1 /home/amaxwell/public_html/buzz/google-api-php-client/src/contrib/apiBuzzService.php(139): apiServiceResource->__call('list', Array)
+#2 /home/amaxwell/public_html/buzz/google-api-php-client/examples/index.php(81): apiBuzzService->listActivities('@consumption', '@me', 50, 50, NULL, 50)
+#3 {main}
+  thrown in /home/amaxwell/public_html/buzz/google-api-php-client/src/io/apiREST.php on line 84
+[19-Jan-2011 17:46:05] PHP Fatal error:  Cannot use object of type stdClass as array in /home/amaxwell/public_html/buzz/google-api-php-client/src/service/apiServiceResource.php on line 37
+[19-Jan-2011 17:50:32] PHP Fatal error:  Cannot use object of type stdClass as array in /home/amaxwell/public_html/buzz/google-api-php-client/src/service/apiServiceResource.php on line 37
+[19-Jan-2011 17:53:20] PHP Fatal error:  Uncaught exception 'apiServiceException' with message 'Error calling https://www.googleapis.com/buzz/v1/activities/@me/@consumption?c=50&hl=50&max-liked=50&alt=json: (401) Unknown authorization header' in /home/amaxwell/public_html/buzz/google-api-php-client/src/io/apiREST.php:84
+Stack trace:
+#0 /home/amaxwell/public_html/buzz/google-api-php-client/src/service/apiServiceResource.php(101): apiREST::execute(Object(apiServiceRequest))
+#1 /home/amaxwell/public_html/buzz/google-api-php-client/src/contrib/apiBuzzService.php(139): apiServiceResource->__call('list', Array)
+#2 /home/amaxwell/public_html/buzz/google-api-php-client/examples/index.php(81): apiBuzzService->listActivities('@consumption', '@me', 50, 50, NULL, 50)
+#3 {main}
+  thrown in /home/amaxwell/public_html/buzz/google-api-php-client/src/io/apiREST.php on line 84
+[19-Jan-2011 17:53:25] PHP Warning:  json_encode() expects exactly 1 parameter, 2 given in /home/amaxwell/public_html/buzz/google-api-php-client/src/auth/apiOAuth.php on line 78
+[19-Jan-2011 17:53:26] PHP Fatal error:  Uncaught exception 'apiServiceException' with message 'Error calling https://www.googleapis.com/buzz/v1/activities/@me/@consumption?c=50&hl=50&max-liked=50&alt=json: (503) A system error has occurred' in /home/amaxwell/public_html/buzz/google-api-php-client/src/io/apiREST.php:84
+Stack trace:
+#0 /home/amaxwell/public_html/buzz/google-api-php-client/src/service/apiServiceResource.php(101): apiREST::execute(Object(apiServiceRequest))
+#1 /home/amaxwell/public_html/buzz/google-api-php-client/src/contrib/apiBuzzService.php(139): apiServiceResource->__call('list', Array)
+#2 /home/amaxwell/public_html/buzz/google-api-php-client/examples/index.php(81): apiBuzzService->listActivities('@consumption', '@me', 50, 50, NULL, 50)
+#3 {main}
+  thrown in /home/amaxwell/public_html/buzz/google-api-php-client/src/io/apiREST.php on line 84
+[19-Jan-2011 17:54:41] PHP Fatal error:  Uncaught exception 'apiServiceException' with message 'Error calling https://www.googleapis.com/buzz/v1/activities/@me/@consumption?c=50&hl=50&max-liked=50&alt=json: (401) Unknown authorization header' in /home/amaxwell/public_html/buzz/google-api-php-client/src/io/apiREST.php:84
+Stack trace:
+#0 /home/amaxwell/public_html/buzz/google-api-php-client/src/service/apiServiceResource.php(101): apiREST::execute(Object(apiServiceRequest))
+#1 /home/amaxwell/public_html/buzz/google-api-php-client/src/contrib/apiBuzzService.php(139): apiServiceResource->__call('list', Array)
+#2 /home/amaxwell/public_html/buzz/google-api-php-client/examples/index.php(81): apiBuzzService->listActivities('@consumption', '@me', 50, 50, NULL, 50)
+#3 {main}
+  thrown in /home/amaxwell/public_html/buzz/google-api-php-client/src/io/apiREST.php on line 84
+[19-Jan-2011 17:54:45] PHP Warning:  json_encode() expects exactly 1 parameter, 2 given in /home/amaxwell/public_html/buzz/google-api-php-client/src/auth/apiOAuth.php on line 78
+[19-Jan-2011 17:54:45] PHP Fatal error:  Uncaught exception 'apiServiceException' with message 'Error calling https://www.googleapis.com/buzz/v1/activities/@me/@consumption?c=50&hl=50&max-liked=50&alt=json: (503) A system error has occurred' in /home/amaxwell/public_html/buzz/google-api-php-client/src/io/apiREST.php:84
+Stack trace:
+#0 /home/amaxwell/public_html/buzz/google-api-php-client/src/service/apiServiceResource.php(101): apiREST::execute(Object(apiServiceRequest))
+#1 /home/amaxwell/public_html/buzz/google-api-php-client/src/contrib/apiBuzzService.php(139): apiServiceResource->__call('list', Array)
+#2 /home/amaxwell/public_html/buzz/google-api-php-client/examples/index.php(81): apiBuzzService->listActivities('@consumption', '@me', 50, 50, NULL, 50)
+#3 {main}
+  thrown in /home/amaxwell/public_html/buzz/google-api-php-client/src/io/apiREST.php on line 84
+[19-Jan-2011 18:04:39] PHP Fatal error:  Cannot use object of type stdClass as array in /home/amaxwell/public_html/buzz/google-api-php-client/src/service/apiServiceResource.php on line 37
+[19-Jan-2011 18:28:28] PHP Fatal error:  Cannot use object of type stdClass as array in /home/amaxwell/public_html/buzz/google-api-php-client/src/service/apiServiceResource.php on line 37
+[19-Jan-2011 18:33:52] PHP Fatal error:  Cannot use object of type stdClass as array in /home/amaxwell/public_html/buzz/google-api-php-client/src/service/apiServiceResource.php on line 37
+[19-Jan-2011 18:41:47] PHP Warning:  strtotime() [<a href='function.strtotime'>function.strtotime</a>]: It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'America/Chicago' for 'CST/-6.0/no DST' instead in /home/amaxwell/public_html/buzz/google-api-php-client/src/io/apiCurlIO.php on line 159
+[19-Jan-2011 18:41:47] PHP Warning:  strtotime() [<a href='function.strtotime'>function.strtotime</a>]: It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'America/Chicago' for 'CST/-6.0/no DST' instead in /home/amaxwell/public_html/buzz/google-api-php-client/src/io/apiCurlIO.php on line 160
+[19-Jan-2011 18:41:47] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/amaxwell/public_html/buzz/google-api-php-client/src/io/apiCurlIO.php:159) in /home/amaxwell/public_html/buzz/google-api-php-client/src/auth/apiOAuth.php on line 192
+[19-Jan-2011 18:41:47] PHP Warning:  strtotime() [<a href='function.strtotime'>function.strtotime</a>]: It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'America/Chicago' for 'CST/-6.0/no DST' instead in /home/amaxwell/public_html/buzz/google-api-php-client/src/io/apiCurlIO.php on line 159
+[19-Jan-2011 18:41:47] PHP Warning:  strtotime() [<a href='function.strtotime'>function.strtotime</a>]: It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'America/Chicago' for 'CST/-6.0/no DST' instead in /home/amaxwell/public_html/buzz/google-api-php-client/src/io/apiCurlIO.php on line 160
+[19-Jan-2011 18:41:47] PHP Fatal error:  Uncaught exception 'apiServiceException' with message 'Error calling https://www.googleapis.com/buzz/v1/activities/@me/@consumption?c=50&hl=50&max-liked=50&alt=json: (401) Unknown authorization header' in /home/amaxwell/public_html/buzz/google-api-php-client/src/io/apiREST.php:84
+Stack trace:
+#0 /home/amaxwell/public_html/buzz/google-api-php-client/src/service/apiServiceResource.php(101): apiREST::execute(Object(apiServiceRequest))
+#1 /home/amaxwell/public_html/buzz/google-api-php-client/src/contrib/apiBuzzService.php(139): apiServiceResource->__call('list', Array)
+#2 /home/amaxwell/public_html/buzz/google-api-php-client/examples/index.php(81): apiBuzzService->listActivities('@consumption', '@me', 50, 50, NULL, 50)
+#3 {main}
+  thrown in /home/amaxwell/public_html/buzz/google-api-php-client/src/io/apiREST.php on line 84
+[19-Jan-2011 18:41:58] PHP Warning:  strtotime() [<a href='function.strtotime'>function.strtotime</a>]: It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'America/Chicago' for 'CST/-6.0/no DST' instead in /home/amaxwell/public_html/buzz/google-api-php-client/src/io/apiCurlIO.php on line 159
+[19-Jan-2011 18:41:58] PHP Warning:  strtotime() [<a href='function.strtotime'>function.strtotime</a>]: It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'America/Chicago' for 'CST/-6.0/no DST' instead in /home/amaxwell/public_html/buzz/google-api-php-client/src/io/apiCurlIO.php on line 160
+[19-Jan-2011 18:41:58] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/amaxwell/public_html/buzz/google-api-php-client/src/io/apiCurlIO.php:159) in /home/amaxwell/public_html/buzz/google-api-php-client/src/auth/apiOAuth.php on line 192
+[19-Jan-2011 18:41:58] PHP Warning:  strtotime() [<a href='function.strtotime'>function.strtotime</a>]: It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'America/Chicago' for 'CST/-6.0/no DST' instead in /home/amaxwell/public_html/buzz/google-api-php-client/src/io/apiCurlIO.php on line 159
+[19-Jan-2011 18:41:58] PHP Warning:  strtotime() [<a href='function.strtotime'>function.strtotime</a>]: It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'America/Chicago' for 'CST/-6.0/no DST' instead in /home/amaxwell/public_html/buzz/google-api-php-client/src/io/apiCurlIO.php on line 160
+[19-Jan-2011 18:41:58] PHP Fatal error:  Uncaught exception 'apiServiceException' with message 'Error calling https://www.googleapis.com/buzz/v1/activities/@me/@consumption?c=50&hl=50&max-liked=50&alt=json: (401) Unknown authorization header' in /home/amaxwell/public_html/buzz/google-api-php-client/src/io/apiREST.php:84
+Stack trace:
+#0 /home/amaxwell/public_html/buzz/google-api-php-client/src/service/apiServiceResource.php(101): apiREST::execute(Object(apiServiceRequest))
+#1 /home/amaxwell/public_html/buzz/google-api-php-client/src/contrib/apiBuzzService.php(139): apiServiceResource->__call('list', Array)
+#2 /home/amaxwell/public_html/buzz/google-api-php-client/examples/index.php(81): apiBuzzService->listActivities('@consumption', '@me', 50, 50, NULL, 50)
+#3 {main}
+  thrown in /home/amaxwell/public_html/buzz/google-api-php-client/src/io/apiREST.php on line 84
+[19-Jan-2011 18:42:38] PHP Fatal error:  Uncaught exception 'apiServiceException' with message 'Error calling https://www.googleapis.com/buzz/v1/activities/@me/@consumption?c=50&hl=50&max-liked=50&alt=json: (401) Unknown authorization header' in /home/amaxwell/public_html/buzz/google-api-php-client/src/io/apiREST.php:84
+Stack trace:
+#0 /home/amaxwell/public_html/buzz/google-api-php-client/src/service/apiServiceResource.php(101): apiREST::execute(Object(apiServiceRequest))
+#1 /home/amaxwell/public_html/buzz/google-api-php-client/src/contrib/apiBuzzService.php(139): apiServiceResource->__call('list', Array)
+#2 /home/amaxwell/public_html/buzz/google-api-php-client/examples/index.php(81): apiBuzzService->listActivities('@consumption', '@me', 50, 50, NULL, 50)
+#3 {main}
+  thrown in /home/amaxwell/public_html/buzz/google-api-php-client/src/io/apiREST.php on line 84
+[19-Jan-2011 18:42:43] PHP Warning:  json_encode() expects exactly 1 parameter, 2 given in /home/amaxwell/public_html/buzz/google-api-php-client/src/auth/apiOAuth.php on line 78
+[19-Jan-2011 18:42:43] PHP Fatal error:  Uncaught exception 'apiServiceException' with message 'Error calling https://www.googleapis.com/buzz/v1/activities/@me/@consumption?c=50&hl=50&max-liked=50&alt=json: (503) A system error has occurred' in /home/amaxwell/public_html/buzz/google-api-php-client/src/io/apiREST.php:84
+Stack trace:
+#0 /home/amaxwell/public_html/buzz/google-api-php-client/src/service/apiServiceResource.php(101): apiREST::execute(Object(apiServiceRequest))
+#1 /home/amaxwell/public_html/buzz/google-api-php-client/src/contrib/apiBuzzService.php(139): apiServiceResource->__call('list', Array)
+#2 /home/amaxwell/public_html/buzz/google-api-php-client/examples/index.php(81): apiBuzzService->listActivities('@consumption', '@me', 50, 50, NULL, 50)
+#3 {main}
+  thrown in /home/amaxwell/public_html/buzz/google-api-php-client/src/io/apiREST.php on line 84
+[19-Jan-2011 18:51:15] PHP Warning:  strtotime() [<a href='function.strtotime'>function.strtotime</a>]: It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'America/Chicago' for 'CST/-6.0/no DST' instead in /home/amaxwell/public_html/buzz/google-api-php-client/src/io/apiCurlIO.php on line 159
+[19-Jan-2011 18:51:15] PHP Warning:  strtotime() [<a href='function.strtotime'>function.strtotime</a>]: It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'America/Chicago' for 'CST/-6.0/no DST' instead in /home/amaxwell/public_html/buzz/google-api-php-client/src/io/apiCurlIO.php on line 160
+[19-Jan-2011 18:51:15] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/amaxwell/public_html/buzz/google-api-php-client/src/io/apiCurlIO.php:159) in /home/amaxwell/public_html/buzz/google-api-php-client/src/auth/apiOAuth.php on line 192
+[19-Jan-2011 18:51:16] PHP Warning:  strtotime() [<a href='function.strtotime'>function.strtotime</a>]: It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'America/Chicago' for 'CST/-6.0/no DST' instead in /home/amaxwell/public_html/buzz/google-api-php-client/src/io/apiCurlIO.php on line 159
+[19-Jan-2011 18:51:16] PHP Warning:  strtotime() [<a href='function.strtotime'>function.strtotime</a>]: It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'America/Chicago' for 'CST/-6.0/no DST' instead in /home/amaxwell/public_html/buzz/google-api-php-client/src/io/apiCurlIO.php on line 160
+[19-Jan-2011 18:51:16] PHP Fatal error:  Uncaught exception 'apiServiceException' with message 'Error calling https://www.googleapis.com/buzz/v1/activities/@me/@consumption?max-comments=50&max-results=50&max-liked=50&alt=json: (401) Anonymous access is not allowed for this action.' in /home/amaxwell/public_html/buzz/google-api-php-client/src/io/apiREST.php:85
+Stack trace:
+#0 /home/amaxwell/public_html/buzz/google-api-php-client/src/service/apiServiceResource.php(101): apiREST::execute(Object(apiServiceRequest))
+#1 /home/amaxwell/public_html/buzz/google-api-php-client/src/contrib/apiBuzzService.php(204): apiServiceResource->__call('list', Array)
+#2 /home/amaxwell/public_html/buzz/google-api-php-client/examples/index.php(81): apiBuzzService->listActivities('@consumption', '@me', 50, 50, NULL, 50)
+#3 {main}
+  thrown in /home/amaxwell/public_html/buzz/google-api-php-client/src/io/apiREST.php on line 85
+[19-Jan-2011 18:51:36] PHP Fatal error:  Cannot redeclare class OAuthException in /home/amaxwell/public_html/buzz/google-api-php-client/src/external/OAuth.php on line 7
+[19-Jan-2011 18:52:55] PHP Fatal error:  Uncaught exception 'apiServiceException' with message 'Error calling https://www.googleapis.com/buzz/v1/activities/@me/@consumption?c=50&hl=50&max-liked=50&alt=json: (401) Unknown authorization header' in /home/amaxwell/public_html/buzz/google-api-php-client/src/io/apiREST.php:84
+Stack trace:
+#0 /home/amaxwell/public_html/buzz/google-api-php-client/src/service/apiServiceResource.php(101): apiREST::execute(Object(apiServiceRequest))
+#1 /home/amaxwell/public_html/buzz/google-api-php-client/src/contrib/apiBuzzService.php(139): apiServiceResource->__call('list', Array)
+#2 /home/amaxwell/public_html/buzz/google-api-php-client/examples/index.php(81): apiBuzzService->listActivities('@consumption', '@me', 50, 50, NULL, 50)
+#3 {main}
+  thrown in /home/amaxwell/public_html/buzz/google-api-php-client/src/io/apiREST.php on line 84
+[19-Jan-2011 18:53:00] PHP Warning:  json_encode() expects exactly 1 parameter, 2 given in /home/amaxwell/public_html/buzz/google-api-php-client/src/auth/apiOAuth.php on line 78
+[19-Jan-2011 18:53:00] PHP Fatal error:  Uncaught exception 'apiServiceException' with message 'Error calling https://www.googleapis.com/buzz/v1/activities/@me/@consumption?c=50&hl=50&max-liked=50&alt=json: (503) A system error has occurred' in /home/amaxwell/public_html/buzz/google-api-php-client/src/io/apiREST.php:84
+Stack trace:
+#0 /home/amaxwell/public_html/buzz/google-api-php-client/src/service/apiServiceResource.php(101): apiREST::execute(Object(apiServiceRequest))
+#1 /home/amaxwell/public_html/buzz/google-api-php-client/src/contrib/apiBuzzService.php(139): apiServiceResource->__call('list', Array)
+#2 /home/amaxwell/public_html/buzz/google-api-php-client/examples/index.php(81): apiBuzzService->listActivities('@consumption', '@me', 50, 50, NULL, 50)
+#3 {main}
+  thrown in /home/amaxwell/public_html/buzz/google-api-php-client/src/io/apiREST.php on line 84
+[19-Jan-2011 20:33:20] PHP Warning:  strtotime() [<a href='function.strtotime'>function.strtotime</a>]: It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'America/Chicago' for 'CST/-6.0/no DST' instead in /home/amaxwell/public_html/buzz/google-api-php-client/src/io/apiCurlIO.php on line 159
+[19-Jan-2011 20:33:20] PHP Warning:  strtotime() [<a href='function.strtotime'>function.strtotime</a>]: It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'America/Chicago' for 'CST/-6.0/no DST' instead in /home/amaxwell/public_html/buzz/google-api-php-client/src/io/apiCurlIO.php on line 160
+[19-Jan-2011 20:33:20] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/amaxwell/public_html/buzz/google-api-php-client/src/io/apiCurlIO.php:159) in /home/amaxwell/public_html/buzz/google-api-php-client/src/auth/apiOAuth.php on line 192
+[19-Jan-2011 20:33:21] PHP Warning:  strtotime() [<a href='function.strtotime'>function.strtotime</a>]: It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'America/Chicago' for 'CST/-6.0/no DST' instead in /home/amaxwell/public_html/buzz/google-api-php-client/src/io/apiCurlIO.php on line 159
+[19-Jan-2011 20:33:21] PHP Warning:  strtotime() [<a href='function.strtotime'>function.strtotime</a>]: It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'America/Chicago' for 'CST/-6.0/no DST' instead in /home/amaxwell/public_html/buzz/google-api-php-client/src/io/apiCurlIO.php on line 160
+[19-Jan-2011 20:33:21] PHP Fatal error:  Uncaught exception 'apiServiceException' with message 'Error calling https://www.googleapis.com/buzz/v1/activities/@me/@consumption?max-comments=50&max-results=50&max-liked=50&alt=json: (401) Anonymous access is not allowed for this action.' in /home/amaxwell/public_html/buzz/google-api-php-client/src/io/apiREST.php:85
+Stack trace:
+#0 /home/amaxwell/public_html/buzz/google-api-php-client/src/service/apiServiceResource.php(101): apiREST::execute(Object(apiServiceRequest))
+#1 /home/amaxwell/public_html/buzz/google-api-php-client/src/contrib/apiBuzzService.php(204): apiServiceResource->__call('list', Array)
+#2 /home/amaxwell/public_html/buzz/google-api-php-client/examples/index.php(81): apiBuzzService->listActivities('@consumption', '@me', 50, 50, NULL, 50)
+#3 {main}
+  thrown in /home/amaxwell/public_html/buzz/google-api-php-client/src/io/apiREST.php on line 85
+[19-Jan-2011 20:37:21] PHP Warning:  strtotime() [<a href='function.strtotime'>function.strtotime</a>]: It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'America/Chicago' for 'CST/-6.0/no DST' instead in /home/amaxwell/public_html/buzz/google-api-php-client/src/io/apiCurlIO.php on line 159
+[19-Jan-2011 20:37:21] PHP Warning:  strtotime() [<a href='function.strtotime'>function.strtotime</a>]: It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'America/Chicago' for 'CST/-6.0/no DST' instead in /home/amaxwell/public_html/buzz/google-api-php-client/src/io/apiCurlIO.php on line 160
+[19-Jan-2011 20:37:21] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/amaxwell/public_html/buzz/google-api-php-client/src/io/apiCurlIO.php:159) in /home/amaxwell/public_html/buzz/google-api-php-client/src/auth/apiOAuth.php on line 192
+[19-Jan-2011 20:37:21] PHP Warning:  strtotime() [<a href='function.strtotime'>function.strtotime</a>]: It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'America/Chicago' for 'CST/-6.0/no DST' instead in /home/amaxwell/public_html/buzz/google-api-php-client/src/io/apiCurlIO.php on line 159
+[19-Jan-2011 20:37:21] PHP Warning:  strtotime() [<a href='function.strtotime'>function.strtotime</a>]: It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'America/Chicago' for 'CST/-6.0/no DST' instead in /home/amaxwell/public_html/buzz/google-api-php-client/src/io/apiCurlIO.php on line 160
+[19-Jan-2011 20:37:21] PHP Fatal error:  Uncaught exception 'apiServiceException' with message 'Error calling https://www.googleapis.com/buzz/v1/activities/@me/@consumption?max-comments=50&max-results=50&max-liked=50&alt=json: (401) Anonymous access is not allowed for this action.' in /home/amaxwell/public_html/buzz/google-api-php-client/src/io/apiREST.php:85
+Stack trace:
+#0 /home/amaxwell/public_html/buzz/google-api-php-client/src/service/apiServiceResource.php(101): apiREST::execute(Object(apiServiceRequest))
+#1 /home/amaxwell/public_html/buzz/google-api-php-client/src/contrib/apiBuzzService.php(204): apiServiceResource->__call('list', Array)
+#2 /home/amaxwell/public_html/buzz/google-api-php-client/examples/index.php(81): apiBuzzService->listActivities('@consumption', '@me', 50, 50, NULL, 50)
+#3 {main}
+  thrown in /home/amaxwell/public_html/buzz/google-api-php-client/src/io/apiREST.php on line 85
+[20-Jan-2011 00:38:24] PHP Warning:  strtotime() [<a href='function.strtotime'>function.strtotime</a>]: It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'America/Chicago' for 'CST/-6.0/no DST' instead in /home/amaxwell/public_html/buzz/google-api-php-client/src/io/apiCurlIO.php on line 159
+[20-Jan-2011 00:38:24] PHP Warning:  strtotime() [<a href='function.strtotime'>function.strtotime</a>]: It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'America/Chicago' for 'CST/-6.0/no DST' instead in /home/amaxwell/public_html/buzz/google-api-php-client/src/io/apiCurlIO.php on line 160
+[20-Jan-2011 00:38:24] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/amaxwell/public_html/buzz/google-api-php-client/src/io/apiCurlIO.php:159) in /home/amaxwell/public_html/buzz/google-api-php-client/src/auth/apiOAuth.php on line 192
+[20-Jan-2011 00:38:25] PHP Warning:  strtotime() [<a href='function.strtotime'>function.strtotime</a>]: It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'America/Chicago' for 'CST/-6.0/no DST' instead in /home/amaxwell/public_html/buzz/google-api-php-client/src/io/apiCurlIO.php on line 159
+[20-Jan-2011 00:38:25] PHP Warning:  strtotime() [<a href='function.strtotime'>function.strtotime</a>]: It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'America/Chicago' for 'CST/-6.0/no DST' instead in /home/amaxwell/public_html/buzz/google-api-php-client/src/io/apiCurlIO.php on line 160
+[20-Jan-2011 00:38:25] PHP Fatal error:  Uncaught exception 'apiServiceException' with message 'Error calling https://www.googleapis.com/buzz/v1/activities/@me/@consumption?max-comments=50&max-results=50&max-liked=50&alt=json: (401) Anonymous access is not allowed for this action.' in /home/amaxwell/public_html/buzz/google-api-php-client/src/io/apiREST.php:85
+Stack trace:
+#0 /home/amaxwell/public_html/buzz/google-api-php-client/src/service/apiServiceResource.php(101): apiREST::execute(Object(apiServiceRequest))
+#1 /home/amaxwell/public_html/buzz/google-api-php-client/src/contrib/apiBuzzService.php(204): apiServiceResource->__call('list', Array)
+#2 /home/amaxwell/public_html/buzz/google-api-php-client/examples/index.php(81): apiBuzzService->listActivities('@consumption', '@me', 50, 50, NULL, 50)
+#3 {main}
+  thrown in /home/amaxwell/public_html/buzz/google-api-php-client/src/io/apiREST.php on line 85
+[20-Jan-2011 16:09:54] PHP Fatal error:  Cannot redeclare class OAuthException in /home/amaxwell/public_html/buzz/google-api-php-client/src/external/OAuth.php on line 7
+[20-Jan-2011 16:10:35] PHP Warning:  strtotime() [<a href='function.strtotime'>function.strtotime</a>]: It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'America/Chicago' for 'CST/-6.0/no DST' instead in /home/amaxwell/public_html/buzz/google-api-php-client/src/io/apiCurlIO.php on line 159
+[20-Jan-2011 16:10:35] PHP Warning:  strtotime() [<a href='function.strtotime'>function.strtotime</a>]: It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'America/Chicago' for 'CST/-6.0/no DST' instead in /home/amaxwell/public_html/buzz/google-api-php-client/src/io/apiCurlIO.php on line 160
+[20-Jan-2011 16:10:35] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/amaxwell/public_html/buzz/google-api-php-client/src/io/apiCurlIO.php:159) in /home/amaxwell/public_html/buzz/google-api-php-client/src/auth/apiOAuth.php on line 192
+[20-Jan-2011 16:10:35] PHP Warning:  strtotime() [<a href='function.strtotime'>function.strtotime</a>]: It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'America/Chicago' for 'CST/-6.0/no DST' instead in /home/amaxwell/public_html/buzz/google-api-php-client/src/io/apiCurlIO.php on line 159
+[20-Jan-2011 16:10:35] PHP Warning:  strtotime() [<a href='function.strtotime'>function.strtotime</a>]: It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'America/Chicago' for 'CST/-6.0/no DST' instead in /home/amaxwell/public_html/buzz/google-api-php-client/src/io/apiCurlIO.php on line 160
+[20-Jan-2011 16:10:35] PHP Fatal error:  Uncaught exception 'apiServiceException' with message 'Error calling https://www.googleapis.com/buzz/v1/activities/@me/@consumption?max-comments=50&max-results=50&max-liked=50&alt=json: (401) Anonymous access is not allowed for this action.' in /home/amaxwell/public_html/buzz/google-api-php-client/src/io/apiREST.php:85
+Stack trace:
+#0 /home/amaxwell/public_html/buzz/google-api-php-client/src/service/apiServiceResource.php(101): apiREST::execute(Object(apiServiceRequest))
+#1 /home/amaxwell/public_html/buzz/google-api-php-client/src/contrib/apiBuzzService.php(204): apiServiceResource->__call('list', Array)
+#2 /home/amaxwell/public_html/buzz/google-api-php-client/examples/index.php(81): apiBuzzService->listActivities('@consumption', '@me', 50, 50, NULL, 50)
+#3 {main}
+  thrown in /home/amaxwell/public_html/buzz/google-api-php-client/src/io/apiREST.php on line 85
+[20-Jan-2011 14:25:20] PHP Fatal error:  Uncaught exception 'apiServiceException' with message 'Error calling https://www.googleapis.com/buzz/v1/activities/@me/@consumption?max-comments=50&max-results=50&max-liked=50&alt=json: (401) Anonymous access is not allowed for this action.' in /home/amaxwell/public_html/buzz/google-api-php-client/src/io/apiREST.php:85
+Stack trace:
+#0 /home/amaxwell/public_html/buzz/google-api-php-client/src/service/apiServiceResource.php(101): apiREST::execute(Object(apiServiceRequest))
+#1 /home/amaxwell/public_html/buzz/google-api-php-client/src/contrib/apiBuzzService.php(204): apiServiceResource->__call('list', Array)
+#2 /home/amaxwell/public_html/buzz/google-api-php-client/examples/index.php(81): apiBuzzService->listActivities('@consumption', '@me', 50, 50, NULL, 50)
+#3 {main}
+  thrown in /home/amaxwell/public_html/buzz/google-api-php-client/src/io/apiREST.php on line 85
+[20-Jan-2011 14:44:44] PHP Fatal error:  Uncaught exception 'apiServiceException' with message 'Error calling https://www.googleapis.com/buzz/v1/activities/@me/@consumption?max-comments=50&max-results=50&max-liked=50&alt=json: (401) Anonymous access is not allowed for this action.' in /home/amaxwell/public_html/buzz/google-api-php-client/src/io/apiREST.php:85
+Stack trace:
+#0 /home/amaxwell/public_html/buzz/google-api-php-client/src/service/apiServiceResource.php(101): apiREST::execute(Object(apiServiceRequest))
+#1 /home/amaxwell/public_html/buzz/google-api-php-client/src/contrib/apiBuzzService.php(204): apiServiceResource->__call('list', Array)
+#2 /home/amaxwell/public_html/buzz/google-api-php-client/examples/index.php(81): apiBuzzService->listActivities('@consumption', '@me', 50, 50, NULL, 50)
+#3 {main}
+  thrown in /home/amaxwell/public_html/buzz/google-api-php-client/src/io/apiREST.php on line 85
+[20-Jan-2011 15:03:24] PHP Fatal error:  Uncaught exception 'apiServiceException' with message 'Error calling https://www.googleapis.com/buzz/v1/activities/@me/@consumption?max-comments=50&max-results=50&max-liked=50&alt=json: (401) Anonymous access is not allowed for this action.' in /home/amaxwell/public_html/buzz/google-api-php-client/src/io/apiREST.php:85
+Stack trace:
+#0 /home/amaxwell/public_html/buzz/google-api-php-client/src/service/apiServiceResource.php(101): apiREST::execute(Object(apiServiceRequest))
+#1 /home/amaxwell/public_html/buzz/google-api-php-client/src/contrib/apiBuzzService.php(204): apiServiceResource->__call('list', Array)
+#2 /home/amaxwell/public_html/buzz/google-api-php-client/examples/index.php(81): apiBuzzService->listActivities('@consumption', '@me', 50, 50, NULL, 50)
+#3 {main}
+  thrown in /home/amaxwell/public_html/buzz/google-api-php-client/src/io/apiREST.php on line 85

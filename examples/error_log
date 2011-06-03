@@ -1,0 +1,247 @@
+[03-Jan-2011 16:01:06] PHP Fatal error:  Cannot redeclare class OAuthException in /home/amaxwell/public_html/buzz/src/auth/OAuth.php on line 7
+[03-Jan-2011 16:01:15] PHP Fatal error:  Cannot redeclare class OAuthException in /home/amaxwell/public_html/buzz/src/auth/OAuth.php on line 7
+[03-Jan-2011 16:05:09] PHP Fatal error:  Cannot redeclare class OAuthException in /home/amaxwell/public_html/buzz/src/auth/OAuth.php on line 7
+[03-Jan-2011 16:07:11] PHP Fatal error:  Cannot redeclare class OAuthException in /home/amaxwell/public_html/buzz/src/auth/OAuth.php on line 7
+[03-Jan-2011 16:08:00] PHP Fatal error:  Cannot redeclare class OAuthException in /home/amaxwell/public_html/buzz/src/auth/OAuth.php on line 7
+[03-Jan-2011 16:10:18] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cookie - headers already sent by (output started at /home/amaxwell/public_html/buzz/examples/includes/header.php:22) in /home/amaxwell/public_html/buzz/examples/includes/createBuzz.php on line 27
+[03-Jan-2011 16:10:18] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/amaxwell/public_html/buzz/examples/includes/header.php:22) in /home/amaxwell/public_html/buzz/examples/includes/createBuzz.php on line 27
+[03-Jan-2011 16:10:18] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/amaxwell/public_html/buzz/examples/includes/header.php:22) in /home/amaxwell/public_html/buzz/src/auth/buzzOAuth.php on line 195
+[03-Jan-2011 16:10:18] PHP Fatal error:  Uncaught exception 'buzzException' with message 'Invalid response code (401)' in /home/amaxwell/public_html/buzz/src/buzz.php:397
+Stack trace:
+#0 /home/amaxwell/public_html/buzz/src/buzz.php(80): buzz->call('/@me/@consumpti...')
+#1 /home/amaxwell/public_html/buzz/examples/getConsumptionStream.php(26): buzz->getPosts('@consumption', '@me', 16, 16, 24)
+#2 {main}
+  thrown in /home/amaxwell/public_html/buzz/src/buzz.php on line 397
+[03-Jan-2011 16:11:34] PHP Fatal error:  Cannot redeclare class OAuthException in /home/amaxwell/public_html/buzz/src/auth/OAuth.php on line 7
+[03-Jan-2011 16:11:42] PHP Fatal error:  Cannot redeclare class OAuthException in /home/amaxwell/public_html/buzz/src/auth/OAuth.php on line 7
+[03-Jan-2011 16:11:57] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cookie - headers already sent by (output started at /home/amaxwell/public_html/buzz/examples/includes/header.php:22) in /home/amaxwell/public_html/buzz/examples/includes/createBuzz.php on line 27
+[03-Jan-2011 16:11:57] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/amaxwell/public_html/buzz/examples/includes/header.php:22) in /home/amaxwell/public_html/buzz/examples/includes/createBuzz.php on line 27
+[03-Jan-2011 16:11:57] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/amaxwell/public_html/buzz/examples/includes/header.php:22) in /home/amaxwell/public_html/buzz/src/auth/buzzOAuth.php on line 195
+[03-Jan-2011 16:11:58] PHP Fatal error:  Uncaught exception 'buzzException' with message 'Invalid response code (401)' in /home/amaxwell/public_html/buzz/src/buzz.php:397
+Stack trace:
+#0 /home/amaxwell/public_html/buzz/src/buzz.php(80): buzz->call('/@me/@public?ma...')
+#1 /home/amaxwell/public_html/buzz/examples/getPublicStream.php(26): buzz->getPosts('@public', '@me', 20, 20, 20)
+#2 {main}
+  thrown in /home/amaxwell/public_html/buzz/src/buzz.php on line 397
+[03-Jan-2011 16:12:30] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cookie - headers already sent by (output started at /home/amaxwell/public_html/buzz/examples/includes/header.php:22) in /home/amaxwell/public_html/buzz/examples/includes/createBuzz.php on line 27
+[03-Jan-2011 16:12:30] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/amaxwell/public_html/buzz/examples/includes/header.php:22) in /home/amaxwell/public_html/buzz/examples/includes/createBuzz.php on line 27
+[03-Jan-2011 16:12:30] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/amaxwell/public_html/buzz/examples/includes/header.php:22) in /home/amaxwell/public_html/buzz/src/auth/buzzOAuth.php on line 195
+[03-Jan-2011 16:12:36] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cookie - headers already sent by (output started at /home/amaxwell/public_html/buzz/examples/includes/header.php:22) in /home/amaxwell/public_html/buzz/examples/includes/createBuzz.php on line 27
+[03-Jan-2011 16:12:36] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/amaxwell/public_html/buzz/examples/includes/header.php:22) in /home/amaxwell/public_html/buzz/examples/includes/createBuzz.php on line 27
+[03-Jan-2011 16:12:36] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/amaxwell/public_html/buzz/examples/includes/header.php:22) in /home/amaxwell/public_html/buzz/src/auth/buzzOAuth.php on line 195
+[03-Jan-2011 16:13:09] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cookie - headers already sent by (output started at /home/amaxwell/public_html/buzz/examples/includes/header.php:22) in /home/amaxwell/public_html/buzz/examples/includes/createBuzz.php on line 27
+[03-Jan-2011 16:13:09] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/amaxwell/public_html/buzz/examples/includes/header.php:22) in /home/amaxwell/public_html/buzz/examples/includes/createBuzz.php on line 27
+[03-Jan-2011 16:13:09] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/amaxwell/public_html/buzz/examples/includes/header.php:22) in /home/amaxwell/public_html/buzz/src/auth/buzzOAuth.php on line 195
+[03-Jan-2011 16:13:10] PHP Fatal error:  Uncaught exception 'buzzException' with message 'Invalid response code (401)' in /home/amaxwell/public_html/buzz/src/buzz.php:397
+Stack trace:
+#0 /home/amaxwell/public_html/buzz/src/buzz.php(80): buzz->call('/@me/@public?ma...')
+#1 /home/amaxwell/public_html/buzz/examples/getPublicStream.php(26): buzz->getPosts('@public', '@me', 20, 20, 20)
+#2 {main}
+  thrown in /home/amaxwell/public_html/buzz/src/buzz.php on line 397
+[03-Jan-2011 16:13:47] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cookie - headers already sent by (output started at /home/amaxwell/public_html/buzz/examples/includes/header.php:22) in /home/amaxwell/public_html/buzz/examples/includes/createBuzz.php on line 27
+[03-Jan-2011 16:13:47] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/amaxwell/public_html/buzz/examples/includes/header.php:22) in /home/amaxwell/public_html/buzz/examples/includes/createBuzz.php on line 27
+[03-Jan-2011 16:13:47] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/amaxwell/public_html/buzz/examples/includes/header.php:22) in /home/amaxwell/public_html/buzz/src/auth/buzzOAuth.php on line 195
+[03-Jan-2011 16:13:51] PHP Fatal error:  Uncaught exception 'buzzException' with message 'Invalid response code (401)' in /home/amaxwell/public_html/buzz/src/buzz.php:406
+Stack trace:
+#0 /home/amaxwell/public_html/buzz/src/buzz.php(213): buzz->callPeople('/@me/@groups/@f...')
+#1 /home/amaxwell/public_html/buzz/examples/getFollowing.php(25): buzz->following('@me')
+#2 {main}
+  thrown in /home/amaxwell/public_html/buzz/src/buzz.php on line 406
+[03-Jan-2011 16:14:00] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cookie - headers already sent by (output started at /home/amaxwell/public_html/buzz/examples/includes/header.php:22) in /home/amaxwell/public_html/buzz/examples/includes/createBuzz.php on line 27
+[03-Jan-2011 16:14:00] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/amaxwell/public_html/buzz/examples/includes/header.php:22) in /home/amaxwell/public_html/buzz/examples/includes/createBuzz.php on line 27
+[03-Jan-2011 16:14:00] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/amaxwell/public_html/buzz/examples/includes/header.php:22) in /home/amaxwell/public_html/buzz/src/auth/buzzOAuth.php on line 195
+[03-Jan-2011 16:14:09] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cookie - headers already sent by (output started at /home/amaxwell/public_html/buzz/examples/includes/header.php:22) in /home/amaxwell/public_html/buzz/examples/includes/createBuzz.php on line 27
+[03-Jan-2011 16:14:09] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/amaxwell/public_html/buzz/examples/includes/header.php:22) in /home/amaxwell/public_html/buzz/examples/includes/createBuzz.php on line 27
+[03-Jan-2011 16:14:09] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/amaxwell/public_html/buzz/examples/includes/header.php:22) in /home/amaxwell/public_html/buzz/src/auth/buzzOAuth.php on line 195
+[03-Jan-2011 16:14:16] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cookie - headers already sent by (output started at /home/amaxwell/public_html/buzz/examples/includes/header.php:22) in /home/amaxwell/public_html/buzz/examples/includes/createBuzz.php on line 27
+[03-Jan-2011 16:14:16] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/amaxwell/public_html/buzz/examples/includes/header.php:22) in /home/amaxwell/public_html/buzz/examples/includes/createBuzz.php on line 27
+[03-Jan-2011 16:14:16] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/amaxwell/public_html/buzz/examples/includes/header.php:22) in /home/amaxwell/public_html/buzz/src/auth/buzzOAuth.php on line 195
+[03-Jan-2011 16:14:16] PHP Fatal error:  Uncaught exception 'buzzException' with message 'Invalid response code (401)' in /home/amaxwell/public_html/buzz/src/buzz.php:114
+Stack trace:
+#0 /home/amaxwell/public_html/buzz/src/buzz.php(118): buzz->editOrCreatePost(Object(buzzPost))
+#1 /home/amaxwell/public_html/buzz/examples/createPostSimple.php(29): buzz->createPost(Object(buzzPost))
+#2 {main}
+  thrown in /home/amaxwell/public_html/buzz/src/buzz.php on line 114
+[03-Jan-2011 16:15:37] PHP Fatal error:  Cannot redeclare class OAuthException in /home/amaxwell/public_html/buzz/src/auth/OAuth.php on line 7
+[03-Jan-2011 16:18:29] PHP Fatal error:  Cannot redeclare class OAuthException in /home/amaxwell/public_html/buzz/src/auth/OAuth.php on line 7
+[03-Jan-2011 16:19:05] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cookie - headers already sent by (output started at /home/amaxwell/public_html/buzz/examples/includes/header.php:22) in /home/amaxwell/public_html/buzz/examples/includes/createBuzz.php on line 27
+[03-Jan-2011 16:19:05] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/amaxwell/public_html/buzz/examples/includes/header.php:22) in /home/amaxwell/public_html/buzz/examples/includes/createBuzz.php on line 27
+[03-Jan-2011 16:19:05] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/amaxwell/public_html/buzz/examples/includes/header.php:22) in /home/amaxwell/public_html/buzz/src/auth/buzzOAuth.php on line 195
+[03-Jan-2011 16:19:57] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cookie - headers already sent by (output started at /home/amaxwell/public_html/buzz/examples/includes/header.php:22) in /home/amaxwell/public_html/buzz/examples/includes/createBuzz.php on line 27
+[03-Jan-2011 16:19:57] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/amaxwell/public_html/buzz/examples/includes/header.php:22) in /home/amaxwell/public_html/buzz/examples/includes/createBuzz.php on line 27
+[03-Jan-2011 16:19:57] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/amaxwell/public_html/buzz/examples/includes/header.php:22) in /home/amaxwell/public_html/buzz/src/auth/buzzOAuth.php on line 195
+[03-Jan-2011 16:20:57] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cookie - headers already sent by (output started at /home/amaxwell/public_html/buzz/examples/includes/header.php:22) in /home/amaxwell/public_html/buzz/examples/includes/createBuzz.php on line 27
+[03-Jan-2011 16:20:57] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/amaxwell/public_html/buzz/examples/includes/header.php:22) in /home/amaxwell/public_html/buzz/examples/includes/createBuzz.php on line 27
+[03-Jan-2011 16:20:57] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/amaxwell/public_html/buzz/examples/includes/header.php:22) in /home/amaxwell/public_html/buzz/src/auth/buzzOAuth.php on line 195
+[03-Jan-2011 16:21:00] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cookie - headers already sent by (output started at /home/amaxwell/public_html/buzz/examples/includes/header.php:22) in /home/amaxwell/public_html/buzz/examples/includes/createBuzz.php on line 27
+[03-Jan-2011 16:21:00] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/amaxwell/public_html/buzz/examples/includes/header.php:22) in /home/amaxwell/public_html/buzz/examples/includes/createBuzz.php on line 27
+[03-Jan-2011 16:21:00] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/amaxwell/public_html/buzz/examples/includes/header.php:22) in /home/amaxwell/public_html/buzz/src/auth/buzzOAuth.php on line 195
+[03-Jan-2011 16:29:58] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cookie - headers already sent by (output started at /home/amaxwell/public_html/buzz/examples/includes/header.php:22) in /home/amaxwell/public_html/buzz/examples/includes/createBuzz.php on line 27
+[03-Jan-2011 16:29:58] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/amaxwell/public_html/buzz/examples/includes/header.php:22) in /home/amaxwell/public_html/buzz/examples/includes/createBuzz.php on line 27
+[03-Jan-2011 16:29:58] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/amaxwell/public_html/buzz/examples/includes/header.php:22) in /home/amaxwell/public_html/buzz/src/auth/buzzOAuth.php on line 195
+[03-Jan-2011 16:29:59] PHP Fatal error:  Uncaught exception 'buzzException' with message 'Invalid response code (401)' in /home/amaxwell/public_html/buzz/src/buzz.php:397
+Stack trace:
+#0 /home/amaxwell/public_html/buzz/src/buzz.php(80): buzz->call('/@me/@public?ma...')
+#1 /home/amaxwell/public_html/buzz/examples/getPublicStream.php(26): buzz->getPosts('@public', '@me', 20, 20, 20)
+#2 {main}
+  thrown in /home/amaxwell/public_html/buzz/src/buzz.php on line 397
+[03-Jan-2011 16:32:49] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cookie - headers already sent by (output started at /home/amaxwell/public_html/buzz/examples/includes/header.php:22) in /home/amaxwell/public_html/buzz/examples/includes/createBuzz.php on line 27
+[03-Jan-2011 16:32:49] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/amaxwell/public_html/buzz/examples/includes/header.php:22) in /home/amaxwell/public_html/buzz/examples/includes/createBuzz.php on line 27
+[03-Jan-2011 16:32:49] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/amaxwell/public_html/buzz/examples/includes/header.php:22) in /home/amaxwell/public_html/buzz/src/auth/buzzOAuth.php on line 195
+[03-Jan-2011 16:32:50] PHP Fatal error:  Uncaught exception 'buzzException' with message 'Invalid response code (401)' in /home/amaxwell/public_html/buzz/src/buzz.php:397
+Stack trace:
+#0 /home/amaxwell/public_html/buzz/src/buzz.php(80): buzz->call('/@me/@public?ma...')
+#1 /home/amaxwell/public_html/buzz/examples/getPublicStream.php(26): buzz->getPosts('@public', '@me', 20, 20, 20)
+#2 {main}
+  thrown in /home/amaxwell/public_html/buzz/src/buzz.php on line 397
+[03-Jan-2011 16:33:00] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cookie - headers already sent by (output started at /home/amaxwell/public_html/buzz/examples/includes/header.php:22) in /home/amaxwell/public_html/buzz/examples/includes/createBuzz.php on line 27
+[03-Jan-2011 16:33:00] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/amaxwell/public_html/buzz/examples/includes/header.php:22) in /home/amaxwell/public_html/buzz/examples/includes/createBuzz.php on line 27
+[03-Jan-2011 16:33:00] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/amaxwell/public_html/buzz/examples/includes/header.php:22) in /home/amaxwell/public_html/buzz/src/auth/buzzOAuth.php on line 195
+[03-Jan-2011 16:33:04] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cookie - headers already sent by (output started at /home/amaxwell/public_html/buzz/examples/includes/header.php:22) in /home/amaxwell/public_html/buzz/examples/includes/createBuzz.php on line 27
+[03-Jan-2011 16:33:04] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/amaxwell/public_html/buzz/examples/includes/header.php:22) in /home/amaxwell/public_html/buzz/examples/includes/createBuzz.php on line 27
+[03-Jan-2011 16:33:04] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/amaxwell/public_html/buzz/examples/includes/header.php:22) in /home/amaxwell/public_html/buzz/src/auth/buzzOAuth.php on line 195
+[03-Jan-2011 16:33:05] PHP Warning:  Invalid argument supplied for foreach() in /home/amaxwell/public_html/buzz/examples/searchBuzz.php on line 50
+[03-Jan-2011 16:33:18] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cookie - headers already sent by (output started at /home/amaxwell/public_html/buzz/examples/includes/header.php:22) in /home/amaxwell/public_html/buzz/examples/includes/createBuzz.php on line 27
+[03-Jan-2011 16:33:18] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/amaxwell/public_html/buzz/examples/includes/header.php:22) in /home/amaxwell/public_html/buzz/examples/includes/createBuzz.php on line 27
+[03-Jan-2011 16:33:18] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/amaxwell/public_html/buzz/examples/includes/header.php:22) in /home/amaxwell/public_html/buzz/src/auth/buzzOAuth.php on line 195
+[03-Jan-2011 16:33:19] PHP Fatal error:  Uncaught exception 'buzzException' with message 'Invalid response code (401)' in /home/amaxwell/public_html/buzz/src/buzz.php:397
+Stack trace:
+#0 /home/amaxwell/public_html/buzz/src/buzz.php(80): buzz->call('/@me/@consumpti...')
+#1 /home/amaxwell/public_html/buzz/examples/getConsumptionStream.php(26): buzz->getPosts('@consumption', '@me', 16, 16, 24)
+#2 {main}
+  thrown in /home/amaxwell/public_html/buzz/src/buzz.php on line 397
+[03-Jan-2011 16:41:00] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cookie - headers already sent by (output started at /home/amaxwell/public_html/buzz/examples/includes/header.php:22) in /home/amaxwell/public_html/buzz/examples/includes/createBuzz.php on line 27
+[03-Jan-2011 16:41:00] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/amaxwell/public_html/buzz/examples/includes/header.php:22) in /home/amaxwell/public_html/buzz/examples/includes/createBuzz.php on line 27
+[03-Jan-2011 16:41:00] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/amaxwell/public_html/buzz/examples/includes/header.php:22) in /home/amaxwell/public_html/buzz/src/auth/buzzOAuth.php on line 195
+[03-Jan-2011 16:48:34] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cookie - headers already sent by (output started at /home/amaxwell/public_html/buzz/examples/includes/header.php:22) in /home/amaxwell/public_html/buzz/examples/includes/createBuzz.php on line 27
+[03-Jan-2011 16:48:34] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/amaxwell/public_html/buzz/examples/includes/header.php:22) in /home/amaxwell/public_html/buzz/examples/includes/createBuzz.php on line 27
+[03-Jan-2011 16:48:34] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/amaxwell/public_html/buzz/examples/includes/header.php:22) in /home/amaxwell/public_html/buzz/src/auth/buzzOAuth.php on line 195
+[03-Jan-2011 16:48:35] PHP Fatal error:  Uncaught exception 'buzzException' with message 'Invalid response code (401)' in /home/amaxwell/public_html/buzz/src/buzz.php:397
+Stack trace:
+#0 /home/amaxwell/public_html/buzz/src/buzz.php(80): buzz->call('/@me/@public?ma...')
+#1 /home/amaxwell/public_html/buzz/examples/getPublicStream.php(26): buzz->getPosts('@public', '@me', 20, 20, 20)
+#2 {main}
+  thrown in /home/amaxwell/public_html/buzz/src/buzz.php on line 397
+[04-Jan-2011 20:01:32] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cookie - headers already sent by (output started at /home/amaxwell/public_html/buzz/examples/includes/header.php:22) in /home/amaxwell/public_html/buzz/examples/includes/createBuzz.php on line 27
+[04-Jan-2011 20:01:32] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/amaxwell/public_html/buzz/examples/includes/header.php:22) in /home/amaxwell/public_html/buzz/examples/includes/createBuzz.php on line 27
+[04-Jan-2011 20:01:33] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/amaxwell/public_html/buzz/examples/includes/header.php:22) in /home/amaxwell/public_html/buzz/src/auth/buzzOAuth.php on line 195
+[04-Jan-2011 20:01:33] PHP Fatal error:  Uncaught exception 'buzzException' with message 'Invalid response code (401)' in /home/amaxwell/public_html/buzz/src/buzz.php:397
+Stack trace:
+#0 /home/amaxwell/public_html/buzz/src/buzz.php(80): buzz->call('/@me/@consumpti...')
+#1 /home/amaxwell/public_html/buzz/examples/likePost.php(34): buzz->getPosts('@consumption', '@me')
+#2 {main}
+  thrown in /home/amaxwell/public_html/buzz/src/buzz.php on line 397
+[04-Jan-2011 20:01:58] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cookie - headers already sent by (output started at /home/amaxwell/public_html/buzz/examples/includes/header.php:22) in /home/amaxwell/public_html/buzz/examples/includes/createBuzz.php on line 27
+[04-Jan-2011 20:01:58] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/amaxwell/public_html/buzz/examples/includes/header.php:22) in /home/amaxwell/public_html/buzz/examples/includes/createBuzz.php on line 27
+[04-Jan-2011 20:01:58] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/amaxwell/public_html/buzz/examples/includes/header.php:22) in /home/amaxwell/public_html/buzz/src/auth/buzzOAuth.php on line 195
+[04-Jan-2011 20:01:58] PHP Fatal error:  Uncaught exception 'buzzException' with message 'Invalid response code (401)' in /home/amaxwell/public_html/buzz/src/buzz.php:397
+Stack trace:
+#0 /home/amaxwell/public_html/buzz/src/buzz.php(80): buzz->call('/@me/@self')
+#1 /home/amaxwell/public_html/buzz/examples/editPost.php(50): buzz->getPosts('@self', '@me')
+#2 {main}
+  thrown in /home/amaxwell/public_html/buzz/src/buzz.php on line 397
+[04-Jan-2011 20:03:15] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cookie - headers already sent by (output started at /home/amaxwell/public_html/buzz/examples/includes/header.php:22) in /home/amaxwell/public_html/buzz/examples/includes/createBuzz.php on line 27
+[04-Jan-2011 20:03:15] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/amaxwell/public_html/buzz/examples/includes/header.php:22) in /home/amaxwell/public_html/buzz/examples/includes/createBuzz.php on line 27
+[04-Jan-2011 20:03:15] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/amaxwell/public_html/buzz/examples/includes/header.php:22) in /home/amaxwell/public_html/buzz/src/auth/buzzOAuth.php on line 195
+[04-Jan-2011 20:03:15] PHP Fatal error:  Uncaught exception 'buzzException' with message 'Invalid response code (401)' in /home/amaxwell/public_html/buzz/src/buzz.php:406
+Stack trace:
+#0 /home/amaxwell/public_html/buzz/src/buzz.php(314): buzz->callPeople('/@me/@groups')
+#1 /home/amaxwell/public_html/buzz/examples/getGroups.php(25): buzz->getGroups()
+#2 {main}
+  thrown in /home/amaxwell/public_html/buzz/src/buzz.php on line 406
+[04-Jan-2011 20:04:31] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cookie - headers already sent by (output started at /home/amaxwell/public_html/buzz/examples/includes/header.php:22) in /home/amaxwell/public_html/buzz/examples/includes/createBuzz.php on line 27
+[04-Jan-2011 20:04:31] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/amaxwell/public_html/buzz/examples/includes/header.php:22) in /home/amaxwell/public_html/buzz/examples/includes/createBuzz.php on line 27
+[04-Jan-2011 20:04:31] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/amaxwell/public_html/buzz/examples/includes/header.php:22) in /home/amaxwell/public_html/buzz/src/auth/buzzOAuth.php on line 195
+[04-Jan-2011 20:04:57] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cookie - headers already sent by (output started at /home/amaxwell/public_html/buzz/examples/includes/header.php:22) in /home/amaxwell/public_html/buzz/examples/includes/createBuzz.php on line 27
+[04-Jan-2011 20:04:57] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/amaxwell/public_html/buzz/examples/includes/header.php:22) in /home/amaxwell/public_html/buzz/examples/includes/createBuzz.php on line 27
+[04-Jan-2011 20:04:57] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/amaxwell/public_html/buzz/examples/includes/header.php:22) in /home/amaxwell/public_html/buzz/src/auth/buzzOAuth.php on line 195
+[04-Jan-2011 20:04:58] PHP Fatal error:  Uncaught exception 'buzzException' with message 'Invalid response code (401)' in /home/amaxwell/public_html/buzz/src/buzz.php:397
+Stack trace:
+#0 /home/amaxwell/public_html/buzz/src/buzz.php(80): buzz->call('/@me/@self')
+#1 /home/amaxwell/public_html/buzz/examples/deletePost.php(33): buzz->getPosts('@self', '@me')
+#2 {main}
+  thrown in /home/amaxwell/public_html/buzz/src/buzz.php on line 397
+[04-Jan-2011 20:07:31] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cookie - headers already sent by (output started at /home/amaxwell/public_html/buzz/examples/includes/header.php:22) in /home/amaxwell/public_html/buzz/examples/includes/createBuzz.php on line 27
+[04-Jan-2011 20:07:31] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/amaxwell/public_html/buzz/examples/includes/header.php:22) in /home/amaxwell/public_html/buzz/examples/includes/createBuzz.php on line 27
+[04-Jan-2011 20:07:31] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/amaxwell/public_html/buzz/examples/includes/header.php:22) in /home/amaxwell/public_html/buzz/src/auth/buzzOAuth.php on line 195
+[04-Jan-2011 20:07:31] PHP Fatal error:  Uncaught exception 'buzzException' with message 'Invalid response code (401)' in /home/amaxwell/public_html/buzz/src/buzz.php:406
+Stack trace:
+#0 /home/amaxwell/public_html/buzz/src/buzz.php(203): buzz->callPeople('/@me/@groups/@f...')
+#1 /home/amaxwell/public_html/buzz/examples/getFollows.php(25): buzz->followers('@me')
+#2 {main}
+  thrown in /home/amaxwell/public_html/buzz/src/buzz.php on line 406
+[04-Jan-2011 20:09:41] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cookie - headers already sent by (output started at /home/amaxwell/public_html/buzz/examples/includes/header.php:22) in /home/amaxwell/public_html/buzz/examples/includes/createBuzz.php on line 27
+[04-Jan-2011 20:09:41] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/amaxwell/public_html/buzz/examples/includes/header.php:22) in /home/amaxwell/public_html/buzz/examples/includes/createBuzz.php on line 27
+[04-Jan-2011 20:09:41] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/amaxwell/public_html/buzz/examples/includes/header.php:22) in /home/amaxwell/public_html/buzz/src/auth/buzzOAuth.php on line 195
+[04-Jan-2011 20:09:42] PHP Fatal error:  Uncaught exception 'buzzException' with message 'Invalid response code (401)' in /home/amaxwell/public_html/buzz/src/buzz.php:406
+Stack trace:
+#0 /home/amaxwell/public_html/buzz/src/buzz.php(213): buzz->callPeople('/@me/@groups/@f...')
+#1 /home/amaxwell/public_html/buzz/examples/followPerson.php(33): buzz->following('@me')
+#2 {main}
+  thrown in /home/amaxwell/public_html/buzz/src/buzz.php on line 406
+[04-Jan-2011 20:10:05] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cookie - headers already sent by (output started at /home/amaxwell/public_html/buzz/examples/includes/header.php:22) in /home/amaxwell/public_html/buzz/examples/includes/createBuzz.php on line 27
+[04-Jan-2011 20:10:05] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/amaxwell/public_html/buzz/examples/includes/header.php:22) in /home/amaxwell/public_html/buzz/examples/includes/createBuzz.php on line 27
+[04-Jan-2011 20:10:05] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/amaxwell/public_html/buzz/examples/includes/header.php:22) in /home/amaxwell/public_html/buzz/src/auth/buzzOAuth.php on line 195
+[04-Jan-2011 20:10:06] PHP Fatal error:  Uncaught exception 'buzzException' with message 'Invalid response code (401)' in /home/amaxwell/public_html/buzz/src/buzz.php:406
+Stack trace:
+#0 /home/amaxwell/public_html/buzz/src/buzz.php(213): buzz->callPeople('/@me/@groups/@f...')
+#1 /home/amaxwell/public_html/buzz/examples/getFollowing.php(25): buzz->following('@me')
+#2 {main}
+  thrown in /home/amaxwell/public_html/buzz/src/buzz.php on line 406
+[04-Jan-2011 20:11:23] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cookie - headers already sent by (output started at /home/amaxwell/public_html/buzz/examples/includes/header.php:22) in /home/amaxwell/public_html/buzz/examples/includes/createBuzz.php on line 27
+[04-Jan-2011 20:11:23] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/amaxwell/public_html/buzz/examples/includes/header.php:22) in /home/amaxwell/public_html/buzz/examples/includes/createBuzz.php on line 27
+[04-Jan-2011 20:11:23] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/amaxwell/public_html/buzz/examples/includes/header.php:22) in /home/amaxwell/public_html/buzz/src/auth/buzzOAuth.php on line 195
+[04-Jan-2011 20:12:12] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cookie - headers already sent by (output started at /home/amaxwell/public_html/buzz/examples/includes/header.php:22) in /home/amaxwell/public_html/buzz/examples/includes/createBuzz.php on line 27
+[04-Jan-2011 20:12:12] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/amaxwell/public_html/buzz/examples/includes/header.php:22) in /home/amaxwell/public_html/buzz/examples/includes/createBuzz.php on line 27
+[04-Jan-2011 20:12:12] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/amaxwell/public_html/buzz/examples/includes/header.php:22) in /home/amaxwell/public_html/buzz/src/auth/buzzOAuth.php on line 195
+[04-Jan-2011 20:12:12] PHP Fatal error:  Uncaught exception 'buzzException' with message 'Invalid response code (401)' in /home/amaxwell/public_html/buzz/src/buzz.php:406
+Stack trace:
+#0 /home/amaxwell/public_html/buzz/src/buzz.php(213): buzz->callPeople('/@me/@groups/@f...')
+#1 /home/amaxwell/public_html/buzz/examples/unfollowPerson.php(32): buzz->following('@me')
+#2 {main}
+  thrown in /home/amaxwell/public_html/buzz/src/buzz.php on line 406
+[04-Jan-2011 20:15:11] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cookie - headers already sent by (output started at /home/amaxwell/public_html/buzz/examples/includes/header.php:22) in /home/amaxwell/public_html/buzz/examples/includes/createBuzz.php on line 27
+[04-Jan-2011 20:15:11] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/amaxwell/public_html/buzz/examples/includes/header.php:22) in /home/amaxwell/public_html/buzz/examples/includes/createBuzz.php on line 27
+[04-Jan-2011 20:15:12] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/amaxwell/public_html/buzz/examples/includes/header.php:22) in /home/amaxwell/public_html/buzz/src/auth/buzzOAuth.php on line 195
+[04-Jan-2011 20:16:35] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cookie - headers already sent by (output started at /home/amaxwell/public_html/buzz/examples/includes/header.php:22) in /home/amaxwell/public_html/buzz/examples/includes/createBuzz.php on line 27
+[04-Jan-2011 20:16:35] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/amaxwell/public_html/buzz/examples/includes/header.php:22) in /home/amaxwell/public_html/buzz/examples/includes/createBuzz.php on line 27
+[04-Jan-2011 20:16:36] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/amaxwell/public_html/buzz/examples/includes/header.php:22) in /home/amaxwell/public_html/buzz/src/auth/buzzOAuth.php on line 195
+[04-Jan-2011 20:19:53] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cookie - headers already sent by (output started at /home/amaxwell/public_html/buzz/examples/includes/header.php:22) in /home/amaxwell/public_html/buzz/examples/includes/createBuzz.php on line 27
+[04-Jan-2011 20:19:53] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/amaxwell/public_html/buzz/examples/includes/header.php:22) in /home/amaxwell/public_html/buzz/examples/includes/createBuzz.php on line 27
+[04-Jan-2011 20:19:53] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/amaxwell/public_html/buzz/examples/includes/header.php:22) in /home/amaxwell/public_html/buzz/src/auth/buzzOAuth.php on line 195
+[04-Jan-2011 20:19:53] PHP Fatal error:  Uncaught exception 'buzzException' with message 'Invalid response code (401)' in /home/amaxwell/public_html/buzz/src/buzz.php:397
+Stack trace:
+#0 /home/amaxwell/public_html/buzz/src/buzz.php(80): buzz->call('/@me/@public?ma...')
+#1 /home/amaxwell/public_html/buzz/examples/getPublicStream.php(26): buzz->getPosts('@public', '@me', 20, 20, 20)
+#2 {main}
+  thrown in /home/amaxwell/public_html/buzz/src/buzz.php on line 397
+[04-Jan-2011 20:20:18] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cookie - headers already sent by (output started at /home/amaxwell/public_html/buzz/examples/includes/header.php:22) in /home/amaxwell/public_html/buzz/examples/includes/createBuzz.php on line 27
+[04-Jan-2011 20:20:18] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/amaxwell/public_html/buzz/examples/includes/header.php:22) in /home/amaxwell/public_html/buzz/examples/includes/createBuzz.php on line 27
+[04-Jan-2011 20:20:18] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/amaxwell/public_html/buzz/examples/includes/header.php:22) in /home/amaxwell/public_html/buzz/src/auth/buzzOAuth.php on line 195
+[04-Jan-2011 20:20:18] PHP Fatal error:  Uncaught exception 'buzzException' with message 'Invalid response code (401)' in /home/amaxwell/public_html/buzz/src/buzz.php:406
+Stack trace:
+#0 /home/amaxwell/public_html/buzz/src/buzz.php(301): buzz->callPeople('/@me/@self')
+#1 /home/amaxwell/public_html/buzz/examples/addOrEditComment.php(24): buzz->getPerson('@me')
+#2 {main}
+  thrown in /home/amaxwell/public_html/buzz/src/buzz.php on line 406
+[04-Jan-2011 20:21:35] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cookie - headers already sent by (output started at /home/amaxwell/public_html/buzz/examples/includes/header.php:22) in /home/amaxwell/public_html/buzz/examples/includes/createBuzz.php on line 27
+[04-Jan-2011 20:21:35] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/amaxwell/public_html/buzz/examples/includes/header.php:22) in /home/amaxwell/public_html/buzz/examples/includes/createBuzz.php on line 27
+[04-Jan-2011 20:21:35] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/amaxwell/public_html/buzz/examples/includes/header.php:22) in /home/amaxwell/public_html/buzz/src/auth/buzzOAuth.php on line 195
+[04-Jan-2011 20:24:08] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cookie - headers already sent by (output started at /home/amaxwell/public_html/buzz/examples/includes/header.php:22) in /home/amaxwell/public_html/buzz/examples/includes/createBuzz.php on line 27
+[04-Jan-2011 20:24:08] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/amaxwell/public_html/buzz/examples/includes/header.php:22) in /home/amaxwell/public_html/buzz/examples/includes/createBuzz.php on line 27
+[04-Jan-2011 20:24:08] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/amaxwell/public_html/buzz/examples/includes/header.php:22) in /home/amaxwell/public_html/buzz/src/auth/buzzOAuth.php on line 195
+[04-Jan-2011 20:24:08] PHP Fatal error:  Uncaught exception 'buzzException' with message 'Invalid response code (401)' in /home/amaxwell/public_html/buzz/src/buzz.php:397
+Stack trace:
+#0 /home/amaxwell/public_html/buzz/src/buzz.php(80): buzz->call('/@me/@consumpti...')
+#1 /home/amaxwell/public_html/buzz/examples/getConsumptionStream.php(26): buzz->getPosts('@consumption', '@me', 16, 16, 24)
+#2 {main}
+  thrown in /home/amaxwell/public_html/buzz/src/buzz.php on line 397
+[13-Jan-2011 01:25:27] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cookie - headers already sent by (output started at /home/amaxwell/public_html/buzz/examples/includes/header.php:22) in /home/amaxwell/public_html/buzz/examples/includes/createBuzz.php on line 27
+[13-Jan-2011 01:25:27] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/amaxwell/public_html/buzz/examples/includes/header.php:22) in /home/amaxwell/public_html/buzz/examples/includes/createBuzz.php on line 27
+[13-Jan-2011 01:25:27] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/amaxwell/public_html/buzz/examples/includes/header.php:22) in /home/amaxwell/public_html/buzz/src/auth/buzzOAuth.php on line 195
+[13-Jan-2011 01:25:27] PHP Fatal error:  Uncaught exception 'buzzException' with message 'Invalid response code (401)' in /home/amaxwell/public_html/buzz/src/buzz.php:397
+Stack trace:
+#0 /home/amaxwell/public_html/buzz/src/buzz.php(80): buzz->call('/@me/@consumpti...')
+#1 /home/amaxwell/public_html/buzz/examples/getConsumptionStream.php(26): buzz->getPosts('@consumption', '@me', 16, 16, 24)
+#2 {main}
+  thrown in /home/amaxwell/public_html/buzz/src/buzz.php on line 397
