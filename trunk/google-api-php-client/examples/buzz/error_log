@@ -1,0 +1,81 @@
+[03-Jan-2011 16:53:56] PHP Fatal error:  Cannot redeclare class OAuthException in /home/amaxwell/public_html/buzz/google-api-php-client/src/external/OAuth.php on line 7
+[03-Jan-2011 16:55:59] PHP Fatal error:  Cannot redeclare class OAuthException in /home/amaxwell/public_html/buzz/google-api-php-client/src/external/OAuth.php on line 7
+[03-Jan-2011 16:56:05] PHP Fatal error:  Cannot redeclare class OAuthException in /home/amaxwell/public_html/buzz/google-api-php-client/src/external/OAuth.php on line 7
+[03-Jan-2011 16:57:00] PHP Fatal error:  Class 'OAuthConsumer' not found in /home/amaxwell/public_html/buzz/google-api-php-client/src/auth/apiOAuth.php on line 50
+[03-Jan-2011 16:58:02] PHP Fatal error:  Class 'OAuthConsumer' not found in /home/amaxwell/public_html/buzz/google-api-php-client/src/auth/apiOAuth.php on line 50
+[03-Jan-2011 16:58:05] PHP Fatal error:  Class 'OAuthConsumer' not found in /home/amaxwell/public_html/buzz/google-api-php-client/src/auth/apiOAuth.php on line 50
+[03-Jan-2011 16:58:12] PHP Fatal error:  Class 'OAuthConsumer' not found in /home/amaxwell/public_html/buzz/google-api-php-client/src/auth/apiOAuth.php on line 50
+[03-Jan-2011 16:59:05] PHP Fatal error:  Class 'OAuthConsumer' not found in /home/amaxwell/public_html/buzz/google-api-php-client/src/auth/apiOAuth.php on line 50
+[03-Jan-2011 16:59:58] PHP Fatal error:  Class 'OAuthConsumer' not found in /home/amaxwell/public_html/buzz/google-api-php-client/src/auth/apiOAuth.php on line 50
+[03-Jan-2011 17:01:27] PHP Fatal error:  Class 'OAuthConsumer' not found in /home/amaxwell/public_html/buzz/google-api-php-client/src/auth/apiOAuth.php on line 50
+[03-Jan-2011 17:02:30] PHP Fatal error:  Class 'OAuthConsumer' not found in /home/amaxwell/public_html/buzz/google-api-php-client/src/auth/apiOAuth.php on line 50
+[03-Jan-2011 17:06:51] PHP Fatal error:  Class 'OAuthConsumer' not found in /home/amaxwell/public_html/buzz/google-api-php-client/src/auth/apiOAuth.php on line 50
+[03-Jan-2011 17:19:10] PHP Fatal error:  Class 'OAuthConsumer' not found in /home/amaxwell/public_html/buzz/google-api-php-client/src/auth/apiOAuth.php on line 50
+[03-Jan-2011 17:53:08] PHP Fatal error:  Cannot redeclare class OAuthException in /home/amaxwell/public_html/buzz/google-api-php-client/src/external/OAuth.php on line 7
+[03-Jan-2011 17:57:12] PHP Fatal error:  Cannot redeclare class OAuthException in /home/amaxwell/public_html/buzz/google-api-php-client/src/external/OAuth.php on line 7
+[03-Jan-2011 17:57:15] PHP Fatal error:  Cannot redeclare class OAuthException in /home/amaxwell/public_html/buzz/google-api-php-client/src/external/OAuth.php on line 7
+[03-Jan-2011 18:00:31] PHP Fatal error:  Cannot redeclare class OAuthException in /home/amaxwell/public_html/buzz/google-api-php-client/src/external/OAuth.php on line 7
+[20-Jan-2011 14:41:01] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/amaxwell/public_html/buzz/google-api-php-client/examples/buzz/includes/header.php:26) in /home/amaxwell/public_html/buzz/google-api-php-client/src/auth/apiOAuth.php on line 192
+[20-Jan-2011 14:41:01] PHP Fatal error:  Uncaught exception 'apiServiceException' with message 'Error calling https://www.googleapis.com/buzz/v1/activities/@me/@consumption?max-comments=50&max-results=50&max-liked=50&alt=json: (401) Anonymous access is not allowed for this action.' in /home/amaxwell/public_html/buzz/google-api-php-client/src/io/apiREST.php:85
+Stack trace:
+#0 /home/amaxwell/public_html/buzz/google-api-php-client/src/service/apiServiceResource.php(101): apiREST::execute(Object(apiServiceRequest))
+#1 /home/amaxwell/public_html/buzz/google-api-php-client/src/contrib/apiBuzzService.php(204): apiServiceResource->__call('list', Array)
+#2 /home/amaxwell/public_html/buzz/google-api-php-client/examples/buzz/getConsumptionStream.php(47): apiBuzzService->listActivities('@consumption', '@me', 50, 50, NULL, 50)
+#3 {main}
+  thrown in /home/amaxwell/public_html/buzz/google-api-php-client/src/io/apiREST.php on line 85
+[20-Jan-2011 14:41:12] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/amaxwell/public_html/buzz/google-api-php-client/examples/buzz/includes/header.php:26) in /home/amaxwell/public_html/buzz/google-api-php-client/src/auth/apiOAuth.php on line 192
+[20-Jan-2011 14:41:13] PHP Fatal error:  Uncaught exception 'apiServiceException' with message 'Error calling https://www.googleapis.com/buzz/v1/activities/@me/@public?max-comments=50&max-results=50&max-liked=50&alt=json: (401) @me called by anonymous' in /home/amaxwell/public_html/buzz/google-api-php-client/src/io/apiREST.php:85
+Stack trace:
+#0 /home/amaxwell/public_html/buzz/google-api-php-client/src/service/apiServiceResource.php(101): apiREST::execute(Object(apiServiceRequest))
+#1 /home/amaxwell/public_html/buzz/google-api-php-client/src/contrib/apiBuzzService.php(204): apiServiceResource->__call('list', Array)
+#2 /home/amaxwell/public_html/buzz/google-api-php-client/examples/buzz/getPublicStream.php(47): apiBuzzService->listActivities('@public', '@me', 50, 50, NULL, 50)
+#3 {main}
+  thrown in /home/amaxwell/public_html/buzz/google-api-php-client/src/io/apiREST.php on line 85
+[20-Jan-2011 14:42:15] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/amaxwell/public_html/buzz/google-api-php-client/examples/buzz/includes/header.php:26) in /home/amaxwell/public_html/buzz/google-api-php-client/src/auth/apiOAuth.php on line 192
+[20-Jan-2011 14:42:15] PHP Fatal error:  Uncaught exception 'apiServiceException' with message 'Error calling https://www.googleapis.com/buzz/v1/activities/@me/@public?max-comments=50&max-results=50&max-liked=50&alt=json: (401) @me called by anonymous' in /home/amaxwell/public_html/buzz/google-api-php-client/src/io/apiREST.php:85
+Stack trace:
+#0 /home/amaxwell/public_html/buzz/google-api-php-client/src/service/apiServiceResource.php(101): apiREST::execute(Object(apiServiceRequest))
+#1 /home/amaxwell/public_html/buzz/google-api-php-client/src/contrib/apiBuzzService.php(204): apiServiceResource->__call('list', Array)
+#2 /home/amaxwell/public_html/buzz/google-api-php-client/examples/buzz/getPublicStream.php(47): apiBuzzService->listActivities('@public', '@me', 50, 50, NULL, 50)
+#3 {main}
+  thrown in /home/amaxwell/public_html/buzz/google-api-php-client/src/io/apiREST.php on line 85
+[20-Jan-2011 14:45:29] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/amaxwell/public_html/buzz/google-api-php-client/examples/buzz/includes/header.php:26) in /home/amaxwell/public_html/buzz/google-api-php-client/src/auth/apiOAuth.php on line 192
+[20-Jan-2011 14:45:30] PHP Fatal error:  Uncaught exception 'apiServiceException' with message 'Error calling https://www.googleapis.com/buzz/v1/activities/@me/@consumption?max-comments=50&max-results=50&max-liked=50&alt=json: (401) Anonymous access is not allowed for this action.' in /home/amaxwell/public_html/buzz/google-api-php-client/src/io/apiREST.php:85
+Stack trace:
+#0 /home/amaxwell/public_html/buzz/google-api-php-client/src/service/apiServiceResource.php(101): apiREST::execute(Object(apiServiceRequest))
+#1 /home/amaxwell/public_html/buzz/google-api-php-client/src/contrib/apiBuzzService.php(204): apiServiceResource->__call('list', Array)
+#2 /home/amaxwell/public_html/buzz/google-api-php-client/examples/buzz/getConsumptionStream.php(47): apiBuzzService->listActivities('@consumption', '@me', 50, 50, NULL, 50)
+#3 {main}
+  thrown in /home/amaxwell/public_html/buzz/google-api-php-client/src/io/apiREST.php on line 85
+[20-Jan-2011 14:45:46] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/amaxwell/public_html/buzz/google-api-php-client/examples/buzz/includes/header.php:26) in /home/amaxwell/public_html/buzz/google-api-php-client/src/auth/apiOAuth.php on line 192
+[20-Jan-2011 14:45:46] PHP Fatal error:  Uncaught exception 'apiServiceException' with message 'Error calling https://www.googleapis.com/buzz/v1/activities/@me/@public?max-comments=50&max-results=50&max-liked=50&alt=json: (401) @me called by anonymous' in /home/amaxwell/public_html/buzz/google-api-php-client/src/io/apiREST.php:85
+Stack trace:
+#0 /home/amaxwell/public_html/buzz/google-api-php-client/src/service/apiServiceResource.php(101): apiREST::execute(Object(apiServiceRequest))
+#1 /home/amaxwell/public_html/buzz/google-api-php-client/src/contrib/apiBuzzService.php(204): apiServiceResource->__call('list', Array)
+#2 /home/amaxwell/public_html/buzz/google-api-php-client/examples/buzz/getPublicStream.php(47): apiBuzzService->listActivities('@public', '@me', 50, 50, NULL, 50)
+#3 {main}
+  thrown in /home/amaxwell/public_html/buzz/google-api-php-client/src/io/apiREST.php on line 85
+[20-Jan-2011 15:03:45] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/amaxwell/public_html/buzz/google-api-php-client/examples/buzz/includes/header.php:26) in /home/amaxwell/public_html/buzz/google-api-php-client/src/auth/apiOAuth.php on line 192
+[20-Jan-2011 15:03:45] PHP Fatal error:  Uncaught exception 'apiServiceException' with message 'Error calling https://www.googleapis.com/buzz/v1/activities/@me/@public?max-comments=50&max-results=50&max-liked=50&alt=json: (401) @me called by anonymous' in /home/amaxwell/public_html/buzz/google-api-php-client/src/io/apiREST.php:85
+Stack trace:
+#0 /home/amaxwell/public_html/buzz/google-api-php-client/src/service/apiServiceResource.php(101): apiREST::execute(Object(apiServiceRequest))
+#1 /home/amaxwell/public_html/buzz/google-api-php-client/src/contrib/apiBuzzService.php(204): apiServiceResource->__call('list', Array)
+#2 /home/amaxwell/public_html/buzz/google-api-php-client/examples/buzz/getPublicStream.php(47): apiBuzzService->listActivities('@public', '@me', 50, 50, NULL, 50)
+#3 {main}
+  thrown in /home/amaxwell/public_html/buzz/google-api-php-client/src/io/apiREST.php on line 85
+[20-Jan-2011 15:05:23] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/amaxwell/public_html/buzz/google-api-php-client/examples/buzz/includes/header.php:26) in /home/amaxwell/public_html/buzz/google-api-php-client/src/auth/apiOAuth.php on line 192
+[20-Jan-2011 15:05:23] PHP Fatal error:  Uncaught exception 'apiServiceException' with message 'Error calling https://www.googleapis.com/buzz/v1/activities/@me/@public?max-comments=50&max-results=50&max-liked=50&alt=json: (401) @me called by anonymous' in /home/amaxwell/public_html/buzz/google-api-php-client/src/io/apiREST.php:85
+Stack trace:
+#0 /home/amaxwell/public_html/buzz/google-api-php-client/src/service/apiServiceResource.php(101): apiREST::execute(Object(apiServiceRequest))
+#1 /home/amaxwell/public_html/buzz/google-api-php-client/src/contrib/apiBuzzService.php(204): apiServiceResource->__call('list', Array)
+#2 /home/amaxwell/public_html/buzz/google-api-php-client/examples/buzz/getPublicStream.php(47): apiBuzzService->listActivities('@public', '@me', 50, 50, NULL, 50)
+#3 {main}
+  thrown in /home/amaxwell/public_html/buzz/google-api-php-client/src/io/apiREST.php on line 85
+[20-Jan-2011 15:13:59] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/amaxwell/public_html/buzz/google-api-php-client/examples/buzz/includes/header.php:26) in /home/amaxwell/public_html/buzz/google-api-php-client/src/auth/apiOAuth.php on line 192
+[20-Jan-2011 15:14:00] PHP Fatal error:  Uncaught exception 'apiServiceException' with message 'Error calling https://www.googleapis.com/buzz/v1/activities/@me/@consumption?max-comments=50&max-results=50&max-liked=50&alt=json: (401) Anonymous access is not allowed for this action.' in /home/amaxwell/public_html/buzz/google-api-php-client/src/io/apiREST.php:85
+Stack trace:
+#0 /home/amaxwell/public_html/buzz/google-api-php-client/src/service/apiServiceResource.php(101): apiREST::execute(Object(apiServiceRequest))
+#1 /home/amaxwell/public_html/buzz/google-api-php-client/src/contrib/apiBuzzService.php(204): apiServiceResource->__call('list', Array)
+#2 /home/amaxwell/public_html/buzz/google-api-php-client/examples/buzz/getConsumptionStream.php(47): apiBuzzService->listActivities('@consumption', '@me', 50, 50, NULL, 50)
+#3 {main}
+  thrown in /home/amaxwell/public_html/buzz/google-api-php-client/src/io/apiREST.php on line 85
